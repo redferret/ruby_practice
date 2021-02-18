@@ -48,5 +48,5 @@ pet_1 = nil
 # an instance is dereferenced so I force it here to prove the Proc code
 GC.start
 
-# should be not be 1
+# should now be 1
 puts "How many pets now? #{Pet.count}"
